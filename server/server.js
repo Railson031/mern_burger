@@ -3,7 +3,7 @@ import connectDB from './config/database.js';
 
 connectDB();
 
-app.get('/', (req, res, next) => {
+app.get("/", (req, res, next) => {
   res.send("<h1>Working</h1>")
 })
 
